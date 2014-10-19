@@ -1,10 +1,14 @@
 body {
   font-family: 'Raleway', sans-serif;
-	/*font-size: 48px;*/
 	margin:	0px;
-	/*background-image: url(https://s3.amazonaws.com/nanodegreeportfolio/stock-background.jpg);*/
-	background-size: 100%;
-	background-repeat: no-repeat;
+}
+a {
+	color: gray;
+	text-decoration: none;
+	font-size: 20px;
+}
+.center {
+	text-align:center;
 }
 .header {
 	border-bottom: 2px solid black;
@@ -19,23 +23,13 @@ body {
 	float: left;
 	height: 100px;
 }
-.name {
+#name {
 	text-align: right;
 	font-size: 48px;
 	margin: 0px;
 }
-
 .subtitle {
 	text-align: right;
-}
-.project {
-	width: 30%;
-	float: left;
-	padding: 5px;
-}
-.projectsRow {
-	width: 100%;
-	margin: 0 5% 0 5%;
 }
 .projectImage {
 	width: 100%;
@@ -43,11 +37,6 @@ body {
 .mylink {
 	display: block;
 	text-align: center;
-}
-a {
-	color: gray;
-	text-decoration: none;
-	font-size: 20px;
 }
 #aboutMeDiv {
 	display: inline-block;
@@ -59,4 +48,13 @@ a {
 #aboutMe {
 	text-align: left;
 	margin-left: 20px;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
 }
