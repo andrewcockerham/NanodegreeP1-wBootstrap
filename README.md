@@ -1,2 +1,5 @@
-Udacity Front End Web Developer Project 1
-Portfolio (with Bootstrap)
+Udacity Front End Web Developer Nanodegree Project 1  
+
+Portfolio (with Bootstrap)  
+
+View project [here](http://andrewcockerham.github.io/NanodegreeP1-wBootstrap/)
